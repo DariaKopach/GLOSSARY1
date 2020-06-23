@@ -14,9 +14,9 @@ import java.util.stream.Collectors;
  * @author Kopach Daria
  * @version 23.06.2020
  *
- * <p>
+ *
  * 1. GLOSSARY - 10 points
- * <p>
+ *
  * 1.1. Download a text about Harry Potter.
  * 1.2. For each distinct word in the text calculate the number of occurrence.
  * 1.3. Use RegEx..
@@ -32,8 +32,6 @@ import java.util.stream.Collectors;
 
 
 public class Main {
-
-    final static String outputFilePath = "C:\\Users\\Nastya\\Desktop\\text.txt";
 
     /**
      * Main method to execute
@@ -120,7 +118,7 @@ public class Main {
 
         for (int i = 0; i < 20; i++) {
             Map.Entry<String, Integer> pairs = items.next(); // get next item
-            System.out.format("Word: ", pairs.getKey(), pairs.getValue());
+
 
             Files.write(path, (pairs.getKey() + "\n").getBytes());
         }
