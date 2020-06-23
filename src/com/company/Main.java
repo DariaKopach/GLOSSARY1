@@ -12,6 +12,8 @@ import java.util.stream.Collectors;
  * Classname: Main
  *
  * @author Kopach Daria
+ * @version 23.06.2020
+ *
  * <p>
  * 1. GLOSSARY - 10 points
  * <p>
@@ -25,7 +27,7 @@ import java.util.stream.Collectors;
  * 1.8.   First 20 pairs and names write into to a file test.txt
  * 1.9.  Create a fine header for the file
  * 1.10  Use Java  Collections to demonstrate your experience (Map, List )
- * @version 23.06.2020
+ *
  */
 
 
