@@ -1,8 +1,5 @@
 package com.company;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -84,7 +81,7 @@ public class Main {
 
         // 1.4. Sort in the DESC mode by the number of occurrence.
 
-        Map<String , Integer> sortedList = occurrenceNumber.entrySet()
+        Map<String, Integer> sortedList = occurrenceNumber.entrySet()
                 .stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                 .collect(Collectors.toMap(
@@ -95,7 +92,7 @@ public class Main {
 
         //print sorted list of all words
 
-        sortedList.forEach((key,value)->{
+        sortedList.forEach((key, value) -> {
             System.out.println(key + " - " + value);
         });
 
@@ -103,18 +100,18 @@ public class Main {
 
         List<String> keys = new ArrayList<>();
         Map<String, Integer> first20Pairs = new LinkedHashMap<>();
-        sortedList.keySet().stream().forEach(key-> keys.add(key));
+        sortedList.keySet().stream().forEach(key -> keys.add(key));
         for (int i = 0; i < 20; i++) {
             first20Pairs.put(keys.get(i), sortedList.get(keys.get(i)));
         }
 
         //print sorted list of the first 20 words
-        first20Pairs.forEach((key,value)->{
+        first20Pairs.forEach((key, value) -> {
             System.out.println(key + " - " + value);
         });
 
         System.out.println("First 20 pairs:");
-        // create Iterator 'items' to be able to switch to next DescendingSortedMap elements from beginning
+
         Iterator<Map.Entry<String, Integer>> items = first20Pairs.entrySet().iterator();
 
         Path path = Paths.get("C:\\Users\\Nastya\\Desktop\\text.txt");
@@ -122,11 +119,11 @@ public class Main {
         for (int i = 0; i < 20; i++) {
             Map.Entry<String, Integer> pairs = items.next(); // get next item
             System.out.format("Word: ", pairs.getKey(), pairs.getValue());
-            // write occurrence pair to the file
+
             Files.write(path, (pairs.getKey() + "\n").getBytes());
         }
 
-                // 1.6  Find all the proper names.
+        // 1.6  Find all the proper names.
 
         List<String> properNames = new ArrayList<>();
 
