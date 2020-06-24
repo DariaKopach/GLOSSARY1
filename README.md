@@ -2,7 +2,7 @@
 1. GLOSSARY - 10 points
 
 (https://github.com/DariaKopach/GLOSSARY1/blob/master/Output.png)
-![alt tag] (https://github.com/DariaKopach/GLOSSARY1/raw/master/master/Output.png)
+![alt tag] (https://github.com/DariaKopach/GLOSSARY1/blob/master/Output.png?raw=true)
 
 
     1.1. Download a text about Harry Potter.
