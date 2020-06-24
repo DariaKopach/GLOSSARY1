@@ -21,9 +21,9 @@
 
     1.10  Use Java  Collections to demonstrate your experience (Map, List )
     
-    My output below:
- the - 3314 
-\n to - 1850 
+My output below:
+the - 3314 
+to - 1850 
 and - 1812 
 a - 1581 
 of - 1250 
