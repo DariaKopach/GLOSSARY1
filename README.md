@@ -1,7 +1,7 @@
 # GLOSSARY1
 1. GLOSSARY - 10 points
 
-OUTPUT
+
 ![myimage-alt-tag](https://github.com/DariaKopach/GLOSSARY1/blob/master/Output.png)
 
 
