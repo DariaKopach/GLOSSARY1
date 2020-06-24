@@ -23,7 +23,7 @@
     
     My output below:
  the - 3314 
-to - 1850 
+\n to - 1850 
 and - 1812 
 a - 1581 
 of - 1250 
