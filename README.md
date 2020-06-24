@@ -21,4 +21,47 @@
 
     1.10  Use Java  Collections to demonstrate your experience (Map, List )
     
-    
+    My output below:
+ the - 3314 
+to - 1850 
+and - 1812 
+a - 1581 
+of - 1250 
+Harry - 1213 
+was - 1178 
+he - 1034 
+in - 935 
+his - 896 
+it - 805 
+said - 793 
+you - 736 
+had - 697 
+I - 654 
+on - 619 
+that - 582 
+at - 581 
+He - 494 
+him - 494 
+First 20 pairs: 
+In text are 1280 proper names. 
+The first 20 names in alphabet order are: 
+Aaah 
+Aargh 
+Abbott 
+Abou'
+About 
+Absolutely 
+According 
+Adalbert 
+Add 
+Adrian 
+Africa 
+African 
+After 
+Against 
+Ages 
+Agrippa 
+Aha 
+Ahead 
+Ahem 
+Ahern
